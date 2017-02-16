@@ -1,12 +1,26 @@
 function Mostrar()
 {
 
+	
 	var contador=0;
-	var acumulador=0;
+	var num;
+	var acumulador= document.getElementById("suma").value;
+	var total= document.getElementById("promedio").value;
+   
+	while (contador < 5)
+	{
+		
+		num= prompt ("");
+		num=parseInt(num);
+		contador++;
+		acumulador=parseInt(acumulador+=num);
+		total= parseInt(acumulador / contador);
+	
+	}
+
+		alert (acumulador);
+alert(total);
 
 
-
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
 
 }//FIN DE LA FUNCIÓN
