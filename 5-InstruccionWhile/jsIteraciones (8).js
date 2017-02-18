@@ -8,7 +8,32 @@ function Mostrar()
 	var respuesta='si';
 
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+
+
+
+while (confirm(""))
+
+{
+num= prompt ("");
+num=parseInt(num);
+
+if (num >= 0) {
+
+	positivo+=num;
+}
+
+else {
+
+	negativo *=num;
+}
+
+
+alert ("suma positivos"+positivo);
+alert ("producto negativos"+negativo);
+
+}
+
+//VERLO BIEN
+
 
 }//FIN DE LA FUNCIÓN
