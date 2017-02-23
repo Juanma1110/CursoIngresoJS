@@ -1,8 +1,11 @@
 function Mostrar()
 {
 
-var repetciones = prompt("ingrese el número de repeticiones");
+var cant = prompt("ingrese el número de repeticiones");
 
+for ( var i = cant ; i > 0 ; i--) {
 
+cant = alert ("hola utn");
 
+}
 }//FIN DE LA FUNCIÓN

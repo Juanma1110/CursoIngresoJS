@@ -10,4 +10,27 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
 function ComenzarIngreso () 
 {
  
+ var edad=1; //para evitar letras
+ var sexo, eCivil ;
+var sBruto,legajo,nacionalidad;
+
+
+while (edad < 18 || edad > 90) {
+
+edad= prompt ("");
+edad=parseInt(edad);
+
+
+}
+
+while (sexo != "m" && sexo != "f") {
+
+    sexo=prompt ("");
+}
+
+while (eCivil <1 || eCivil > 4) {
+
+eCivil= prompt("");
+}
+
 }
