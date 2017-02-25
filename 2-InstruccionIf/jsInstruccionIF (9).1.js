@@ -60,6 +60,8 @@ EJERCICIO 7
 
 var cont=0;
 var nota,sexo;
+var acumNota=0;
+var primera=true;
 
 while (cont < 100)
 
@@ -67,7 +69,7 @@ while (cont < 100)
 cont++;
 nota=prompt ("");
 
-while (nota    )
+while (nota <0 || nota >10    )  //lo hizo desde el punto de vista de lo que no va
 
 {
 nota=prompt ("");
@@ -78,10 +80,28 @@ nota=prompt ("");
 nota=parseInt(nota);
 sexo=prompt ();
 
-while (sexo    )
+while (sexo !=  "F" && sexo == "m"  ) //verlo bien
 
 {
 sexo=prompt ("");
 
+}
+
+acumNotas+=notas;  //ver si le falto algo
+
+if (primera)
+{
+primera=false;
+min=nota;
+
+
+}
+
+else {
+
+    if (nota <min) {
+min=nota;
+
+    }
 }
 }
